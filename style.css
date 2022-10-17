@@ -1,0 +1,193 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+.containerNavBgCat{
+    height: 450px;
+    position: relative;
+}
+/*Navigatie*/
+.nav{
+    text-align: right;
+    background-color: rgba(192, 215, 187, 0.5);
+    height: 80px;
+    border-bottom: 4px solid #e18335;
+}
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 80px;
+    font-family: 'Oswald', sans-serif;
+    color: #1D2B25;
+    font-size: larger;
+    font-weight: 600;
+}
+.linkNav:hover{
+    background-color:#e18335;
+    color: #F7F3E3;
+}
+.logo{
+    height: 80px;
+    float: left;
+}
+/*the container div to overlap background with the title*/
+.container{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+/*background cat picture*/
+.bgCat{
+    height: 400px;
+    background-image: url(Images/pexels-peng-louis-3073694.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -410px;
+    border-bottom: 4px solid #e18335;
+    position: relative;
+
+}
+.bgCat img{
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+/*Title of about, breeds, before, adopt, and game*/
+.titleAbout{
+    position:  absolute;
+    top: 360px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    font-family: 'Oswald', sans-serif;
+    color: #1D2B25;
+    background-color: #F7F3E3;
+    box-shadow: 2px 2px 5px rgb(61, 61, 61);
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+.titleBreeds{
+    position:  absolute;
+    top: 360px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    font-family: 'Oswald', sans-serif;
+    color: #1D2B25;
+    background-color: #F7F3E3;
+    box-shadow: 2px 2px 5px rgb(61, 61, 61);
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+}
+.titleBefore{
+    position:  absolute;
+    top: 360px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    font-family: 'Oswald', sans-serif;
+    color: #1D2B25;
+    background-color: #F7F3E3;
+    box-shadow: 2px 2px 5px rgb(61, 61, 61);
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+}
+.titleAdopt{
+    position:  absolute;
+    top: 360px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    font-family: 'Oswald', sans-serif;
+    color: #1D2B25;
+    background-color: #F7F3E3;
+    box-shadow: 2px 2px 5px rgb(61, 61, 61);
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+.titleGame{
+    position:  absolute;
+    top: 360px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    font-family: 'Oswald', sans-serif;
+    color: #1D2B25;
+    background-color: #F7F3E3;
+    box-shadow: 2px 2px 5px rgb(61, 61, 61);
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+}
+/*Paragraph with about us content, info about the website*/
+.aboutUs{
+    font-family: 'Oswald', sans-serif;
+    color: #1D2B25;
+    width: 1000px;
+    height: 300px;
+    padding: 20px 20px 20px 20px;
+    margin: 50px auto 20px auto;
+    background-color: #F7F3E3;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(61, 61, 61);
+}
+
+/*Content of the breeds*/
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #F7F3E3;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 100px;
+    margin: 15px;
+    box-shadow: 2px 2px 5px rgb(61, 61, 61);
+    
+}
+
+.card h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #1D2B25;
+}
+
+.card p{
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    text-align: center;
+    color: #1D2B25;
+}
+
+.card img{
+    border-radius: 7px;
+}
